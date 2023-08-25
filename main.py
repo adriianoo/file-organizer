@@ -24,7 +24,7 @@ media_extensions = (".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tif", ".tiff", ".
 for file in os.listdir():
 
     if file.lower().endswith(".pdf"):
-        shutil.move(file, "PDFs")
+        shutil.move(file, "PDF")
 
     elif file.lower().endswith(".docx"):
         shutil.move(file, "WORD")
